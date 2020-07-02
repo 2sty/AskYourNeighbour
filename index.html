@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>AskYourNeighbour</title>
+
+  <!-- CSS BootStrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/8f1d3c3193.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap&family=MuseoModerno:wght@200;300;500;700" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-md navbar-light navbar-custom">
+        <a class="navbar-brand" href="">
+          <!-- <img src="images/neighborhood.png" width="50" height="50" alt=""> -->
+          Ask Your Neighbour
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#pricing">Prices</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Zyskaj nowych klientów poprzez system poleceń!</h1>
+          <p>
+            Posiadasz firmę, która zaczyna się rozwijać? A może jesteś już długo na rynku, potrzebujesz powiewu świeżości i nowych zleceń? Chcesz dotrzeć w prosty sposób do potencjalnych klientów?
+            Wystarczy, że umieścisz swoją ofertę na naszej witrynie i nie będziesz musiał długo czekać na rezultaty!
+          </p>
+          <button type="button" class="btn btn-outline-dark btn-lg join-button"><i class="fas fa-sign-in-alt" style="padding-right:5px;"></i>Dołącz do nas</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/social.png" alt="Text: Vexels URL: www.vexels.com">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="feature-box col-lg-4 col-md-12">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Proste w obsłudze.</h3>
+          <p>Intuicyjne dodawanie swojej oferty. Krótki samouczek wprowadzający.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-12">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Weryfikacja.</h3>
+          <p>Tylko sprawdzeni klienci. Nie obawiaj się spamu.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-12">
+          <i class="icon fas fa-bell fa-4x"></i>
+          <h3 class="feature-title">Powiadomienia.</h3>
+          <p>Ustaw powiadomienia w przeglądarce, mailowe lub sms aby być na bieżąco.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="carousel" class="carousel slide" data-ride="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">"Zdecydowanie lepsza możliwość dotarcia do klienta niż reklamy!"</h2>
+          <img class="testimonial-image" src="images/man1.jpg" alt="man-profile">
+          <em>Jan Kowalski, Wielka wieś</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"Dostaję codziennie po kilka telefonów od potencjalnych klientów!"</h2>
+          <img class="testimonial-image" src="images/man2.jpg" alt="man2-profile">
+          <em>Michał Nowak, Nowa wieś</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+
+
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+    <h2 class="section-heading">Wybierz usługę odpowiednią dla Ciebie</h2>
+    <p>Proste i niedrogie plany cenowe dla Ciebie i Twojej firmy.</p>
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Darmowy</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Darmowy</h2>
+            <p>Brak wglądu do odwiedzających</p>
+            <p>5 powiadomień dziennie</p>
+            <p>Brak możliwości dodawania zdjęć</p>
+            <p>Nielimitowany dostęp do aplikacji</p>
+            <button class="pricing-button btn btn-lg btn-block btn-outline-dark" type="button">Zapisz się</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Standard</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">19zł/miesiąc</h2>
+            <p>Wgląd do odwiedzających</p>
+            <p>10 powiadomień dziennie</p>
+            <p>Możliwość dodawania zdjęć</p>
+            <p>Nielimitowany dostęp do aplikacji</p>
+            <button class="pricing-button btn btn-lg btn-block btn-dark" type="button">Zapisz się</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Pro</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">49zł/miesiąc</h2>
+            <p>Wgląd do odwiedzających</p>
+            <p>Nielimitowane powiadomienia</p>
+            <p>Możliwość dodawania zdjęć</p>
+            <p>Banner w polecanych</p>
+            <p>Nielimitowany dostęp do aplikacji</p>
+            <button class="pricing-button btn btn-lg btn-block btn-dark" type="button">Zapisz się</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Stań się rozpoznawalny w swojej okolicy.</h3>
+      <button type="button" class="btn btn-outline-light btn-lg join-button"><i class="fas fa-sign-in-alt" style="padding-right:5px;"></i>Dołącz do nas</button>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+
+      <i class="footer-icon fab fa-twitter fa-2x"></i>
+      <i class="footer-icon fab fa-instagram fa-2x"></i>
+      <i class="footer-icon fab fa-facebook fa-2x"></i>
+      <i class="footer-icon far fa-envelope fa-2x"></i>
+      <p>© Copyright 2020 2sty</p>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
